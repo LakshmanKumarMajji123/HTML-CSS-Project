@@ -1,0 +1,46 @@
+.sidebar {
+
+  position: fixed;
+  background-color: #ffffff;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 100px;
+  margin-left: 4px;
+
+  z-index: 200;
+  /*here sidebar is override than 
+  header so that'why z-index is 200 than
+  header z-index: 100;*/
+  padding-top: 5px;
+  margin-top: 25px;
+
+}
+
+.sidebar-link {
+  /* background-color: rgb(251, 247, 247); */
+  background-color: white;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link img {
+  /*To select all the images which are inside of the "sidebar-link" class*/
+  height: 24px;
+  margin-bottom: 12px;
+}
+
+.sidebar-link div {
+  /*To select "div's" only inside side-bar-link class*/
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  text-align: center;
+}
